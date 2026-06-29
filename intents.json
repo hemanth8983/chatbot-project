@@ -1,0 +1,84 @@
+{
+  "intents": [
+    {
+      "patterns": ["hi", "hello", "hey", "good morning", "good evening"],
+      "response": "Hello! Welcome to our support service. How can I assist you today?"
+    },
+    {
+      "patterns": ["how are you", "how are you doing", "are you okay"],
+      "response": "I'm doing great! Thanks for asking. How can I help you today?"
+    },
+    {
+      "patterns": ["working hours", "office timing", "business hours", "when are you open"],
+      "response": "Our office is open from 9:00 AM to 6:00 PM, Monday to Friday."
+    },
+    {
+      "patterns": ["contact", "phone number", "email address", "customer support"],
+      "response": "You can contact us at support@example.com or call +1-234-567-8900."
+    },
+    {
+      "patterns": ["where are you located", "office address", "location"],
+      "response": "Our headquarters are located at 123 Main Street, New York, USA."
+    },
+    {
+      "patterns": ["track my order", "order status", "where is my order"],
+      "response": "Please provide your order ID, and I'll help you track your order."
+    },
+    {
+      "patterns": ["cancel order", "order cancellation", "stop my order"],
+      "response": "I can help with that. Please provide your order number for cancellation assistance."
+    },
+    {
+      "patterns": ["refund", "money back", "return product"],
+      "response": "We're sorry you're not satisfied. Please share your order ID, and we'll guide you through the refund process."
+    },
+    {
+      "patterns": ["change password", "reset password", "forgot password"],
+      "response": "You can reset your password by clicking the 'Forgot Password' link on the login page."
+    },
+    {
+      "patterns": ["login issue", "can't login", "unable to sign in"],
+      "response": "Sorry for the inconvenience. Please ensure your credentials are correct or use the password reset option."
+    },
+    {
+      "patterns": ["payment failed", "transaction issue", "payment problem"],
+      "response": "Please provide your transaction ID and payment method so we can investigate the issue."
+    },
+    {
+      "patterns": ["product availability", "is this item in stock", "stock status"],
+      "response": "Please provide the product name or ID, and I'll check its availability."
+    },
+    {
+      "patterns": ["shipping charges", "delivery fee", "shipping cost"],
+      "response": "Shipping charges depend on your location and order value. Please provide your delivery address."
+    },
+    {
+      "patterns": ["complaint", "report an issue", "customer complaint"],
+      "response": "We're sorry to hear that. Please describe the issue, and we'll do our best to resolve it quickly."
+    },
+    {
+      "patterns": ["thank you", "thanks", "appreciate it"],
+      "response": "You're welcome! Feel free to reach out if you need any further assistance."
+    },
+    {
+      "patterns": ["bye", "goodbye", "see you later"],
+      "response": "Thank you for contacting us. Have a great day!"
+    },
+    {
+      "patterns": ["help", "need assistance", "support"],
+      "response": "I'm here to help. Please tell me what issue you're facing."
+    },
+    {
+      "patterns": ["speak to human", "live agent", "customer representative"],
+      "response": "I can connect you with a support representative. Please wait a moment."
+    },
+    {
+      "patterns": ["faq", "frequently asked questions"],
+      "response": "I can answer questions about orders, payments, refunds, accounts, shipping, and more."
+    },
+    {
+      "patterns": ["default", "unknown"],
+      "response": "I'm sorry, I didn't understand that. Could you please rephrase your question?"
+    }
+  ]
+}
